@@ -4,6 +4,7 @@
   "description": "hik-api-gateway node.js SDK",
   "main": "index.js",
   "directories": {
+    "lib": "lib",
     "test": "test"
   },
   "scripts": {
@@ -34,5 +35,16 @@
     "lib",
     "es5",
     "index.js"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/guilinmifen/hik-api-gateway-test.git"
+  },
+  "keywords": [
+    "hik-api-gateway"
+  ],
+  "bugs": {
+    "url": "https://github.com/guilinmifen/hik-api-gateway-test/issues"
+  },
+  "homepage": "https://github.com/guilinmifen/hik-api-gateway-test#readme"
 }

@@ -13,8 +13,6 @@ const asyncSupported = supportAsyncFunctions();
 
 exports.Client = asyncSupported ? require('./lib/client') : require('./es5/client');
 
-exports.SimpleClient = asyncSupported ? require('./lib/simple-client') : require('./es5/simple-client');
-
 //表单类型Content-Type
 exports.CONTENT_TYPE_FORM = 'application/x-www-form-urlencoded; charset=UTF-8';
 // 流类型Content-Type

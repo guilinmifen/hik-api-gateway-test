@@ -7,7 +7,7 @@ const {
   Client
 } = require('./');
 
-const client = new Client('23389642', 'pHZmNqynh6refngSs1AM');
+const client = new Client('APPKEY', 'APPSECRET');
 
 co(function* () {
   var url = 'https://open8200.hikvision.com/artemis/api/artemis/v1/minus';
